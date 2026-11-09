@@ -2,89 +2,83 @@
 
   <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/ChestTerminal-drake/main/banner.svg" alt="ChestTerminal-drake Banner" width="920" />
 
-# 🗄️ ChestTerminal-Drake
+# ⚡ ChestTerminal — Drake Edition
 
-**Sistema de Indexación Masiva de Cofres, Búsqueda de Ítems e Interfaz Digital para Slimefun4**
+**Mass Chest Indexing, Digital Item Search & Wireless Access Terminals for Slimefun4**
 
 <p>
-  <a href="https://github.com/SlimefunNewHorizons/ChestTerminal-drake"><img src="https://img.shields.io/badge/GitHub-ChestTerminal--Drake-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-  <img src="https://img.shields.io/badge/Java-21_FFM_Panama-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21 FFM"/>
-  <img src="https://img.shields.io/badge/Rust-FFM_Accelerated-FF4500?style=for-the-badge&logo=rust&logoColor=white" alt="Rust Native"/>
-  <img src="https://img.shields.io/badge/Paper-1.21.11-06B6D4?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <a href="https://github.com/SlimefunNewHorizons/ChestTerminal-drake"><img src="https://img.shields.io/badge/GitHub-ChestTerminal-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
 </p>
+
+[🇬🇧 **English**](README.md) · [🇪🇸 **Español**](README_ES.md)
 
 </div>
 
-> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+> ### 🏰 Join the Official DrakesCraft Community!
 > 
-> * 🎮 **IP del Servidor**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock)*
-> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7)
-> * 🌐 **Web & Guía**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Tienda**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock Port 25565 / 19132)*
+> * 💬 **Official Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7) — *Check out `#general-english`!*
+> * 🌐 **Website & Guides**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Store**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
 > 
-> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
+> *Play with this addon alongside 80+ optimized expansions live on our technical survival network!*
 
 ---
 
----
+## 📖 What is ChestTerminal?
 
-## 🗄️ ¿Qué es ChestTerminal-Drake?
-
-`ChestTerminal-drake` conecta múltiples cofres normales, cofres dobles y barriles dentro de una zona en una interfaz centralizada de búsqueda y extracción instantánea.
-
-### 🧰 Funcionalidades Clave
-- **Búsqueda Instantánea**: Busca ítems por nombre, lore o ID de Slimefun a través de cientos de cofres conectados.
-- **Exportación / Importación Automática**: Extrae o almacena ítems con un solo clic o mediante tolvas.
-- **Aceleración Nativa en Rust (RustNativeBridge)**: Búsqueda indexada en memoria RAM nativa en nanosegundos sin pausas de Garbage Collector.
+ChestTerminal connects your physical chests, barrels, and storage containers into a centralized digital indexing network. Access, sort, and search your entire warehouse through an intuitive GUI without relocating your physical storage array.
 
 ---
 
-## 🛠️ Compilación
+## ⚙️ Key Features & Systems
+
+* 🔍 **Instant Digital Search**: Fast text filtering and sorting across thousands of connected containers.
+* 📦 **Non-Destructive Integration**: Works with existing vanilla chests, trapped chests, and barrel arrays without item loss.
+* 📡 **Wireless Access Terminals**: Remote terminals enabling inventory access from anywhere within range.
+* 🚀 **Rust FFM Accelerated**: High-throughput storage scans optimized for Paper 1.21.11 with zero tick delay.
+
+---
+
+## 📋 Technical Compatibility
+
+| Parameter | Requirement |
+|---|---|
+| **Server Software** | Paper / Purpur / Folia **1.21.11** |
+| **Java Runtime** | **Java 21** LTS |
+| **Required Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
+| **Architecture** | 100% Server-Side (Vanilla Minecraft clients can join without installing client mods) |
+
+---
+
+## 📥 Installation
+
+1. Download the latest release `.jar` from the [Releases](https://github.com/SlimefunNewHorizons/ChestTerminal-drake/releases) tab or [Modrinth](https://modrinth.com/organization/drakescraft-labs).
+2. Place the `.jar` into your server's `plugins/` directory alongside `Slimefun4-Drake.jar`.
+3. Start or restart your server. Recipes and machines will appear automatically in the Slimefun guide (`/sf guide`).
+
+---
+
+## 🛠️ Building from Source
 
 ```bash
-mvn clean package
+git clone https://github.com/SlimefunNewHorizons/ChestTerminal-drake.git
+cd ChestTerminal-drake
+./gradlew build -x test
 ```
+
+The compiled artifact will be located under `build/libs/ChestTerminal-drake.jar`.
 
 ---
 
 <div align="center">
 
-**DrakesCraft Labs** · Mantenido por [**JackStar6677-1**](https://github.com/JackStar6677-1)
+**Developed and Maintained by [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
+Licensed under **MIT**.
 
 </div>
-
-## Qué añade al juego
-
-Addon de Slimefun con contenido propio: máquinas, objetos y recetas nuevas.
-Registra alrededor de **9 objetos** en la guía de Slimefun.
-
-Todo se fabrica y se investiga desde la guía normal (`/sf guide`), como cualquier otro contenido
-de Slimefun: no hace falta ningún comando especial para empezar.
-
-## Compatibilidad
-
-| | |
-|---|---|
-| Servidor | Paper / Purpur **1.21.11** |
-| Java | **21** |
-| Requiere | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
-| Lado | Solo servidor — quien juega no instala nada |
-| Versión | ${version} |
-
-## Instalación
-
-1. Descarga el `.jar` de la última versión.
-2. Déjalo en la carpeta `plugins/` del servidor, junto a Slimefun.
-3. Reinicia el servidor. Los objetos aparecen solos en la guía.
-
-> Este addon está portado al fork de Slimefun de DrakesCraft. Con el Slimefun original puede no
-> cargar, porque cambia el espacio de nombres de las clases.
-
-## Créditos
-- TheBusyBiscuit
-
-Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/SlimefunNewHorizons/ChestTerminal-drake/main/docs/UPSTREAM_ATTRIBUTION.md).
-
-Licencia **MIT**.
 
 ---
 
@@ -92,6 +86,6 @@ Licencia **MIT**.
 
 This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
-- **Original Project:** Created by the upstream authors and the open-source community.
-- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
-- **License:** Distributed under the original **GNU General Public License v3.0 (GPLv3)** (or original upstream license). See the [LICENSE](LICENSE) file for complete terms.
+- **Original Project:** Created by the upstream authors and the open-source community ([Upstream Repository](https://github.com/Slimefun)).
+- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21 LTS, high concurrency, asynchronous safety, and exploit/duplication prevention.
+- **License:** Distributed under the original **MIT** license terms. See the [LICENSE](LICENSE) file for complete details.
