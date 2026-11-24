@@ -4,9 +4,9 @@ import javax.annotation.Nonnull;
 
 import org.bukkit.block.Block;
 
-import com.github.drakescraft_labs.slimefun4.implementation.handlers.SimpleBlockBreakHandler;
-import com.github.drakescraft_labs.slimefun4.legacy.api.BlockStorage;
-import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenu;
+import io.github.thebusybiscuit.slimefun4.implementation.handlers.SimpleBlockBreakHandler;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
 /**
  * Handles block break events for ChestTerminal blocks,

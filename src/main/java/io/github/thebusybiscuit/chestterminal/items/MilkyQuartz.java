@@ -10,7 +10,7 @@ import org.bukkit.block.Biome;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.chestterminal.ChestTerminal;
-import com.github.drakescraft_labs.slimefun4.api.geo.GEOResource;
+import io.github.thebusybiscuit.slimefun4.api.geo.GEOResource;
 
 /**
  * Milky Quartz is a GEO resource used as a crafting ingredient
